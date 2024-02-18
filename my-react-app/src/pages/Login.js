@@ -29,15 +29,12 @@ const Login = () => {
       localStorage.setItem('name', res.data.firstName);
       navigate('/');
       }
-      // else if(res.status === 400)
-      // {
-      //   setNotlogin(true);
-      // }
+      
     } 
     
   return (
     <>
-      {/* {notLogin ? <h3>Incorrect Username or Password</h3> : ' '} */}
+     
 
 
       <form className='col-md-6 m-auto'>
