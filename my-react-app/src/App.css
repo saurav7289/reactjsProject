@@ -1,0 +1,62 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ 
+}
+/* home css */
+.main{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.custom-icon {
+  font-size: 1.5rem;
+}
+
+.search_div{
+  padding:10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightcyan;
+}
+
+.basket_user{
+  display: flex;
+  align-items: space-between;
+  justify-content:space-evenly;
+}
+
+.basket{
+  float: right;
+  border: 1px solid black;
+  background-color: black;
+  color: white;
+ padding: 0px 5px;
+ border-radius: 50%;
+}
+
+.searchBar{
+  padding: 5px;
+  border-radius: 5px; 
+}
+
+.searchBtn{
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+  background-color: orange;
+}
+
+.totalPrice{
+  font-weight: bold;
+  margin-right: 5px;
+}
+
+.price_heading{
+  text-align: center;
+  margin: 8px auto;
+}
